@@ -2837,29 +2837,63 @@ class Orders
 	}
 
 	/**
-	 * Filter daftar gateway: 13–29 Maret hanya tampilkan Bank Transfer (BCA/Mandiri/Maybank), PayPal, Stripe, Wise.
-	 * Dipakai di portal checkout dan admin Add Order.
+	 * Sampai 21 April 2026: sembunyikan Virtual Account kecuali BCA VA (bcava), sembunyikan Credit Card Xendit (ccxendit).
+	 * Gateway QRIS (sysname mengandung "qris") tetap ditampilkan jika memang ada di daftar aktif.
+	 * Tidak menambahkan gateway baru; hanya menyaring yang sudah dikembalikan sistem.
 	 *
-	 * @param array $gateways [ sysname => value, ... ]
+	 * @param array $gateways [ sysname => value|string|array, ... ]
 	 * @return array
 	 */
 	public static function filterGatewaysByRestrictionPeriod(array $gateways)
 	{
-		$allowedDuringRestriction = ['banktransfer', 'mandiritransfer', 'maybank', 'maybanktransfer', 'paypal', 'paypalexpress', 'stripe', 'wise'];
 		$now = now();
-		$start = $now->copy()->month(3)->day(13)->startOfDay();
-		$end = $now->copy()->month(4)->day(7)->endOfDay();
-		if (!$now->between($start, $end)) {
+		if ($now->format('Y-m-d') > '2026-04-21') {
 			return $gateways;
 		}
-		$allowed = array_flip(array_map('strtolower', $allowedDuringRestriction));
+
 		$filtered = [];
 		foreach ($gateways as $sysname => $value) {
-			if (isset($allowed[strtolower((string) $sysname)])) {
-				$filtered[$sysname] = $value;
+			$key = strtolower((string) $sysname);
+			if (self::shouldHideGatewayDuringRestrictionPeriod($key)) {
+				continue;
 			}
+			$filtered[$sysname] = $value;
 		}
+
 		return $filtered;
+	}
+
+	/**
+	 * Gabungan aturan restriksi: CC Xendit + VA non-BCA (bcava & qris tetap).
+	 */
+	private static function shouldHideGatewayDuringRestrictionPeriod(string $sysnameLower): bool
+	{
+		if ($sysnameLower === 'ccxendit') {
+			return true;
+		}
+
+		return self::isHiddenVirtualAccountDuringRestriction($sysnameLower);
+	}
+
+	/**
+	 * VA non-BCA disembunyikan selama periode restriksi. bcava dan QRIS tidak disembunyikan di sini.
+	 */
+	private static function isHiddenVirtualAccountDuringRestriction(string $sysnameLower): bool
+	{
+		if ($sysnameLower === 'bcava') {
+			return false;
+		}
+		if (strpos($sysnameLower, 'qris') !== false) {
+			return false;
+		}
+		if (preg_match('/vaxendit$/', $sysnameLower)) {
+			return true;
+		}
+		if (substr($sysnameLower, -2) === 'va') {
+			return true;
+		}
+
+		return false;
 	}
 
 	public static function getPricingInfo($pid, $inclconfigops = false, $upgrade = false)
