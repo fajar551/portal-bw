@@ -1,0 +1,19 @@
+{
+    "name": "cbms/one",
+    "description": "This is theme one for client area",
+    "type": "laravel-theme",
+    "version": "1.0",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Cecep Aprilianto",
+            "email": "cecep@qwords.co.id"
+        }
+    ],
+    "extra": {
+        "theme": {
+            "parent": "",
+            "active": true
+        }
+    }
+}

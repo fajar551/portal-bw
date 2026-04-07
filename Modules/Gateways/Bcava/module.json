@@ -1,0 +1,13 @@
+{
+    "name": "Bcava",
+    "alias": "bcava",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Gateways\\Bcava\\Providers\\BcavaServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

@@ -1,0 +1,134 @@
+/*!
+ * Dark Mode Switch v1.0.1 (https://github.com/coliff/dark-mode-switch)
+ * Copyright 2021 C.Oliff
+ * Licensed under MIT (https://github.com/coliff/dark-mode-switch/blob/main/LICENSE)
+ */
+
+[data-theme="dark"] {
+    background-color: #181818 !important;
+    color: #eee;
+}
+
+[data-theme="dark"] .bg-black {
+    background-color: #fff !important;
+}
+
+[data-theme="dark"] .bg-dark {
+    background-color: #eee !important;
+}
+
+[data-theme="dark"] .bg-light {
+    background-color: #222 !important;
+}
+
+[data-theme="dark"] .bg-white {
+    background-color: #000 !important;
+}
+
+[data-theme="dark"]
+    .custom-control-input:checked
+    ~ .custom-control-label::before {
+    color: #9ab0cf;
+    border-color: #f7863b;
+    background-color: #f7863b;
+}
+
+[data-theme="dark"] h1,
+[data-theme="dark"] h2,
+[data-theme="dark"] h3,
+[data-theme="dark"] h4,
+[data-theme="dark"] h5,
+[data-theme="dark"] h6 {
+    color: #fff;
+}
+
+[data-theme="dark"] .alert h1,
+[data-theme="dark"] .alert h2,
+[data-theme="dark"] .alert h3,
+[data-theme="dark"] .alert h4,
+[data-theme="dark"] .alert h5,
+[data-theme="dark"] .alert h6 {
+    color: #505050;
+}
+
+[data-theme="dark"] .navbar-header {
+    background-color: #222 !important;
+    border-bottom: 1px solid #222 !important;
+}
+
+[data-theme="dark"] .user-name,
+[data-theme="dark"] label,
+[data-theme="dark"] .footer {
+    color: #fff;
+}
+
+[data-theme="dark"] .vertical-menu {
+    background-color: #333 !important;
+}
+
+[data-theme="dark"] .vertical-menu a,
+[data-theme="dark"] .menu-title {
+    color: #fff !important;
+}
+
+[data-theme="dark"] .vertical-menu a:hover {
+    background-color: #000 !important;
+}
+
+[data-theme="dark"] .card {
+    background-color: #333;
+    color: #fff;
+}
+
+[data-theme="dark"] table th,
+[data-theme="dark"] td {
+    color: #fff;
+}
+
+[data-theme="dark"] .card-department {
+    background-color: #181818 !important;
+}
+
+[data-theme="dark"] i.mdi-bell-outline {
+    color: #f7863b !important;
+}
+
+[data-theme="dark"] .modal-content {
+    background-color: #333 !important;
+}
+
+[data-theme="dark"] .text-qw {
+    color: #f7863b;
+}
+
+[data-theme="dark"] .page-item.active .page-link {
+    background-color: #f7863b !important;
+}
+
+[data-theme="dark"] .swal2-title {
+    color: #333 !important;
+}
+
+[data-theme="dark"] .simplebar-content h6 {
+    color: #f7863b !important;
+}
+
+[data-theme="dark"] #notification-container h6 {
+    color: #f7863b !important;
+}
+
+[data-theme="dark"]
+    #details-card
+    .card-contact#contact-card
+    .contact-container:hover {
+    transition: 0.5s;
+    background-color: #4f4f4f;
+}
+
+[data-theme="dark"] .tab-wrap {
+    background-color: #4f4f4f !important;
+}
+
+[data-theme="dark"] .product-summary-card {
+    background-color: #222222 !important;
+}

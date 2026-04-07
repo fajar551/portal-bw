@@ -1,0 +1,10 @@
+*
+!.gitignore
+!/CbmsModuleManager
+!/CbmsModuleManager/**
+!/Cbmsthememanager
+!/Cbmsthememanager/**
+!/Cbmshookcallbackmanager
+!/Cbmshookcallbackmanager/**
+!/Cbmscronmanager
+!/Cbmscronmanager/**

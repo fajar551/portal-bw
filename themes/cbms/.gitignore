@@ -1,0 +1,6 @@
+*
+!.gitignore
+!/admin
+!/admin/**
+!/one
+!/one/**

@@ -1,0 +1,13 @@
+{
+    "name": "Cbmscronmanager",
+    "alias": "cbmscronmanager",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Addons\\Cbmscronmanager\\Providers\\CbmscronmanagerServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

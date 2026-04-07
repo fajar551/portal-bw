@@ -1,0 +1,13 @@
+{
+    "name": "Briva",
+    "alias": "briva",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Gateways\\Briva\\Providers\\BrivaServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

@@ -1,0 +1,53 @@
+body {
+    background: #f7fbfc;
+}
+
+.btn-success-qw {
+    background-color: #f7863b;
+    color: #fff;
+    padding: 0.5em 1em;
+    &:hover {
+        transition: ease 0.3s;
+        background-color: #ec782a;
+        color: #fff;
+    }
+    &:focus,
+    .focus {
+        color: #fff;
+        background-color: #d86b22;
+        border-color: #ffb45e;
+        -webkit-box-shadow: 0 0 0 0.15rem ffce8480;
+        box-shadow: 0 0 0 0.15rem #ffce8480;
+    }
+}
+
+
+.header {
+    border-bottom: 1px solid #ec782a;
+    margin-bottom: 1em;
+}
+
+.invoice-container {
+    background: #fff;
+    padding: 5em 1em;
+
+    .unpaid {
+        color: #ff0000;
+    }
+
+    .paid {
+        color: #199923;
+    }
+
+    .cancelled {
+        color: #4AA3FF;
+    }
+
+    .draft {
+        color: #636363;
+    }
+
+    .card-header#deposit {
+        background-color: #ec782a !important;
+    }
+}

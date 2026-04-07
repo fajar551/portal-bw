@@ -1,0 +1,13 @@
+{
+    "name": "Mandiriva",
+    "alias": "mandiriva",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Gateways\\Mandiriva\\Providers\\MandirivaServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

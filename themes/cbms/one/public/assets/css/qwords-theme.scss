@@ -1,0 +1,659 @@
+$md: 1366px;
+$lg: 1920px;
+$main-color: #f7863b;
+$max-tab-count: 5;
+$tab-wrap-border-radius: 6px;
+@import url("https://fonts.googleapis.com/css?family=DM+Sans:400,500,700&display=swap");
+a {
+    color: $main-color;
+}
+
+.vh-75 {
+    min-height: 75vh;
+}
+
+.text-qw {
+    color: $main-color !important;
+}
+
+.btn-success-qw {
+    background-color: #f7863b;
+    color: #fff;
+    padding: 0.5em 1em;
+    &:hover {
+        transition: ease 0.3s;
+        background-color: #ec782a;
+        color: #fff;
+    }
+    &:focus,
+    .focus {
+        color: #fff;
+        background-color: #d86b22;
+        border-color: #ffb45e;
+        -webkit-box-shadow: 0 0 0 0.15rem ffce8480;
+        box-shadow: 0 0 0 0.15rem #ffce8480;
+    }
+}
+
+.fix-bottom {
+    position: fixed;
+    bottom: 0;
+}
+
+.sidebar-text {
+    color: #899bb7;
+    font-weight: 500;
+    font-size: 15.2px;
+}
+
+.mm-active {
+    color: $main-color !important;
+}
+
+.ticketattachmentthumbcontainer {
+   //  display: flex;
+   //  justify-content: center;
+    width: 100% !important;
+
+    img {
+        width: 30%;
+        border-radius: 1em !important;
+    }
+}
+
+#ticket-dash {
+    td {
+        a {
+            &:hover {
+                border-bottom: 1px solid $main-color;
+            }
+        }
+    }
+}
+
+.card#user-statistic {
+    min-height: 130px;
+
+    .card-body {
+        .row {
+            width: 100%;
+        }
+
+        display: flex;
+        align-items: center;
+        padding: 0 1em;
+    }
+}
+
+.card#user-deposit {
+    height: 100%;
+}
+
+#details-card {
+    /* width */
+    ::-webkit-scrollbar {
+        width: 10px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+        background: #f1f1f1;
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        background: #515a74;
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: #252b3b;
+    }
+
+    .card-promo#latest-promo {
+        max-height: 605px;
+        overflow-y: scroll;
+    }
+
+    .card {
+        min-height: 400px;
+        max-height: 400px;
+        overflow-y: scroll;
+    }
+
+    @media only screen and (max-width: $md) {
+        .card {
+            min-height: 300px;
+            overflow: hidden;
+        }
+
+        .card-empty-section {
+            margin-top: 30px;
+            padding-top: 60px;
+        }
+    }
+
+    table {
+        margin-top: 10px;
+        a {
+            color: #ffa568;
+        }
+    }
+
+    .card-empty-section {
+        padding-top: 30px;
+    }
+
+    .card-contact#contact-card {
+        overflow-y: scroll;
+
+        .contact-container {
+            margin: 0.5em 0;
+            border: 1px solid #ffa568;
+            padding: 1em;
+            border-radius: 0.5em;
+            height: 200px;
+            overflow: hidden;
+
+            i {
+                font-size: 28px;
+                color: #ffa568;
+            }
+
+            @media only screen and (max-width: $md) {
+                i {
+                    font-size: 20px;
+                    color: #ffa568;
+                }
+            }
+
+            &:hover {
+                transition: 0.5s;
+                background-color: #f3f3f3;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: $md) {
+    #logo-contact-placeholder {
+        display: none;
+    }
+}
+
+#card-count-services {
+    h6 {
+        font-size: 12px;
+    }
+
+    @media only screen and (max-width: $md) {
+        .card {
+            min-height: 120px;
+            overflow: hidden;
+
+            h6 {
+                font-size: 10px;
+            }
+        }
+    }
+}
+
+#service-details {
+    i {
+        font-size: 70px;
+    }
+
+    .icon-product {
+        background-color: $main-color;
+        color: #fff;
+        border-radius: 0.5em;
+    }
+}
+
+#additional-info {
+    .card-qw {
+        padding: 1em;
+        background: #fff;
+        border-bottom: 3px solid $main-color;
+    }
+}
+
+#open-new-ticket {
+    .card-ticket {
+        padding: 1.5em;
+        min-height: 350px;
+
+        .ticket-container-header {
+            border-bottom: 2px solid $main-color;
+            margin-bottom: 2em;
+        }
+
+        .card-department {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            height: 180px;
+            padding: 1em;
+            background-color: #f3f3f3;
+            border-radius: 0.5em;
+            margin-bottom: 10px;
+
+            &:hover {
+                background: #f3f3f3;
+                outline: 3px solid $main-color;
+                outline-offset: 1px;
+                cursor: pointer;
+                color: $main-color;
+            }
+
+            .icon-col {
+                width: 30%;
+                i {
+                    font-size: 50px;
+                }
+            }
+
+            .text-desc-col {
+                width: 70%;
+
+                p#billing-desc,
+                p#sales-desc {
+                    font-size: 10px !important;
+                }
+            }
+        }
+    }
+}
+
+#ticket-details {
+    .media {
+        padding-bottom: 1em;
+        margin-bottom: 1em;
+        border-bottom: 3px solid $main-color;
+        i {
+            font-size: 50px;
+            margin-right: 0.5em;
+        }
+
+        h5 {
+            color: $main-color;
+        }
+    }
+}
+
+.card#message-card {
+    min-height: 440px;
+
+    .ticket-container {
+        position: relative;
+        padding: 20px;
+        min-height: 300px;
+
+        .attachment-list {
+            position: absolute;
+            bottom: 0;
+        }
+
+        .attachment {
+            border: 1px solid $main-color;
+            border-radius: 5px;
+            padding: 2px 5px;
+            background-color: #f3f3f3;
+
+            a {
+                color: $main-color;
+            }
+        }
+    }
+}
+
+.title-form {
+    border-bottom: 1px solid $main-color;
+    margin: 1em 0;
+    padding-bottom: 10px;
+}
+
+.section-payment {
+    min-height: 440px;
+
+    .card#deposit-card {
+        min-height: 200px;
+
+        .tac {
+            ul {
+                padding-left: 20px;
+            }
+        }
+    }
+}
+
+.darkmode-layer,
+.darkmode-toggle {
+    z-index: 500;
+}
+
+.alert#activateAffInfo {
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ref-link-holder {
+    border: 1px solid $main-color;
+    border-radius: 0.5em;
+    justify-content: center;
+    margin-bottom: 1em;
+
+    a {
+        font-size: 1em;
+        text-align: center;
+    }
+}
+
+.prod-container {
+    min-height: 400px;
+
+    .not-found {
+        text-align: center;
+
+        .splash-image {
+            margin-bottom: 1em;
+
+            i {
+                font-size: 20em;
+                color: #9ca1aa;
+            }
+        }
+
+        h1 {
+            color: #9ca1aa;
+        }
+    }
+
+    .card-product-cat {
+        position: relative;
+        height: 140px;
+        max-height: 150px;
+        border: 1px solid $main-color;
+        border-radius: 0.7em;
+        margin-bottom: 15px;
+        color: $main-color;
+        padding: 1em;
+
+        #description {
+            max-height: 40px;
+            max-width: 60%;
+            overflow: hidden;
+            color: #9ca1aa;
+        }
+
+        .price-tag {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+
+            h5 {
+                color: $main-color;
+            }
+
+            p {
+                color: #000;
+            }
+        }
+    }
+}
+
+.select-domain {
+    min-height: 650px;
+
+    .title {
+        padding-bottom: 1em;
+        border-bottom: 1px solid $main-color;
+    }
+}
+
+#custom-tabs {
+    .tab-wrap {
+        transition: 0.3s box-shadow ease;
+        border-radius: $tab-wrap-border-radius;
+        max-width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        list-style: none;
+        background-color: #fff;
+        margin: 40px 0;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+        &:hover {
+            box-shadow: 0 12px 23px rgba(0, 0, 0, 0.23),
+                0 10px 10px rgba(0, 0, 0, 0.19);
+        }
+    }
+
+    .tab {
+        display: none;
+        @for $i from 1 through $max-tab-count {
+            &:checked:nth-of-type(#{$i}) ~ .tab__content:nth-of-type(#{$i}) {
+                opacity: 1;
+                transition: 0.5s opacity ease-in, 0.8s transform ease;
+                position: relative;
+                top: 0;
+                z-index: 100;
+                transform: translateY(0px);
+                text-shadow: 0 0 0;
+            }
+        }
+        &:first-of-type:not(:last-of-type) + label {
+            border-top-right-radius: 0;
+            border-bottom-right-radius: 0;
+        }
+        &:not(:first-of-type):not(:last-of-type) + label {
+            border-radius: 0;
+        }
+        &:last-of-type:not(:first-of-type) + label {
+            border-top-left-radius: 0;
+            border-bottom-left-radius: 0;
+        }
+        &:checked + label {
+            background-color: $main-color;
+            box-shadow: 0 -1px 0 #fff inset;
+            color: #fff;
+            cursor: default;
+            &:hover {
+                box-shadow: 0 -1px 0 #fff inset;
+                background-color: #e2742b;
+            }
+        }
+        + label {
+            box-shadow: 0 -1px 0 #eee inset;
+            border-radius: $tab-wrap-border-radius $tab-wrap-border-radius 0 0;
+            cursor: pointer;
+            display: block;
+            text-decoration: none;
+            color: $main-color;
+            flex-grow: 3;
+            text-align: center;
+            background-color: #f2f2f2;
+            user-select: none;
+            text-align: center;
+            transition: 0.3s background-color ease, 0.3s box-shadow ease;
+            height: 50px;
+            box-sizing: border-box;
+            padding: 15px;
+            &:hover {
+                background-color: #f9f9f9;
+                box-shadow: 0 1px 0 #f4f4f4 inset;
+            }
+        }
+        &__content {
+            padding: 10px 25px;
+            background-color: transparent;
+            position: absolute;
+            width: 100%;
+            z-index: -1;
+            opacity: 0;
+            left: 0;
+            transform: translateY(-3px);
+            border-radius: $tab-wrap-border-radius;
+        }
+    }
+
+    /* boring stuff */
+
+    .container {
+        margin: 0 auto;
+        display: block;
+        max-width: 800px;
+        > *:not(.tab-wrap) {
+            padding: 0 80px;
+        }
+    }
+
+    h1,
+    h2,
+    p {
+        margin: 0;
+        color: #444;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    h3 {
+        font-weight: 400;
+    }
+
+    // p {
+    //   line-height: 1.6;
+    //   margin-bottom: 20px;
+    //   text-align: center;
+    // }
+}
+
+.order-summary {
+    min-height: 400px;
+    margin-bottom: 0;
+
+    .cart-list-holder,
+    .updated-price-holder {
+        height: auto;
+        .product-summary-card {
+            height: auto;
+            background-color: #fcfcfc;
+            border: 1px solid $main-color;
+            border-radius: 0.8em;
+            padding: 1em;
+            margin-bottom: 10px;
+
+            h5#product-name {
+                color: #252b3b;
+            }
+        }
+    }
+    .btn-checkout {
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+    }
+}
+
+#card-row-1 {
+    .card {
+        min-height: 410px;
+    }
+}
+
+#card-row-2 {
+    button {
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+    }
+}
+
+#overlay {
+    position: fixed; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+}
+
+.card#open-ticket-default {
+    min-height: 400px;
+
+    a {
+        font-size: 18px;
+        &:hover {
+            color: #fff;
+        }
+    }
+
+    .dept-card {
+        border: 1px solid $main-color;
+        min-height: 100px;
+        max-height: 150px;
+        overflow: hidden;
+
+        &:hover {
+            transition: 0.5s ease;
+            background: $main-color;
+        }
+    }
+}
+
+.card#ticket-info {
+    padding: 1rem;
+    border: $main-color 1px solid;
+    border-radius: 8px;
+}
+
+.card-message {
+    border-radius: 8px;
+
+    .card-zeus {
+        padding: 5px 10px;
+        border-bottom: 1px solid $main-color;
+        padding-bottom: 1em;
+    }
+
+    .date {
+        color: $main-color;
+        font-weight: bold;
+        text-align: right;
+    }
+
+    .user {
+        i {
+            font-size: 28px;
+        }
+
+        .type {
+            display: flex;
+            align-items: center;
+            i {
+                font-size: 14px;
+            }
+        }
+    }
+
+    .message-container {
+        min-height: 100px;
+    }
+}
+
+.navbar-page-header {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 600;
+    @media screen and (min-width: 978px) {
+        font-size: 1.7em;
+    }
+}

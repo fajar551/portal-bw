@@ -1,0 +1,13 @@
+{
+    "name": "Biiva",
+    "alias": "biiva",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Gateways\\Biiva\\Providers\\BiivaServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Cimbva",
+    "alias": "cimbva",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Gateways\\Cimbva\\Providers\\CimbvaServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

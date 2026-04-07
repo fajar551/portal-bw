@@ -1,0 +1,46 @@
+body {
+  background: #f7fbfc;
+}
+
+.btn-success-qw {
+  background-color: #f7863b;
+  color: #fff;
+  padding: 0.5em 1em;
+}
+.btn-success-qw:hover {
+  transition: ease 0.3s;
+  background-color: #ec782a;
+  color: #fff;
+}
+.btn-success-qw:focus,
+.btn-success-qw .focus {
+  color: #fff;
+  background-color: #d86b22;
+  border-color: #ffb45e;
+  box-shadow: 0 0 0 0.15rem #ffce8480;
+}
+
+.header {
+  border-bottom: 1px solid #ec782a;
+  margin-bottom: 1em;
+}
+
+.invoice-container {
+  background: #fff;
+  padding: 5em 1em;
+}
+.invoice-container .unpaid {
+  color: #ff0000;
+}
+.invoice-container .paid {
+  color: #199923;
+}
+.invoice-container .cancelled {
+  color: #4AA3FF;
+}
+.invoice-container .draft {
+  color: #636363;
+}
+.invoice-container .card-header#deposit {
+  background-color: #ec782a !important;
+}/*# sourceMappingURL=invoiceweb.css.map */

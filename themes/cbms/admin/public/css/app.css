@@ -1,0 +1,21 @@
+.input-100 {
+    max-width: 100px;
+}
+.input-200 {
+    max-width: 200px;
+}
+.input-300 {
+    max-width: 300px;
+}
+.input-400 {
+    max-width: 400px;
+}
+.select-inline {
+    display: inline;
+    min-width: 20%;
+    max-width: 50%;
+    width: auto;
+}
+.cursor-pointer {
+    cursor: pointer;
+}

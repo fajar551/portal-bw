@@ -1,0 +1,13 @@
+{
+    "name": "Bniva",
+    "alias": "bniva",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Gateways\\Bniva\\Providers\\BnivaServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

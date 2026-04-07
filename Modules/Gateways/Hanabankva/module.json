@@ -1,0 +1,13 @@
+{
+    "name": "Hanabankva",
+    "alias": "hanabankva",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Gateways\\Hanabankva\\Providers\\HanabankvaServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

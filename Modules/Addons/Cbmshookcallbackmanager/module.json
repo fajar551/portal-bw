@@ -1,0 +1,13 @@
+{
+    "name": "Cbmshookcallbackmanager",
+    "alias": "cbmshookcallbackmanager",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Addons\\Cbmshookcallbackmanager\\Providers\\CbmshookcallbackmanagerServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

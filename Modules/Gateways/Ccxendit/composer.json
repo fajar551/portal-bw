@@ -1,0 +1,23 @@
+{
+    "name": "cbms/ccxendit",
+    "description": "",
+    "authors": [
+        {
+            "name": "Dev CBMS",
+            "email": "cbmsauto@qwords.co.id"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Gateways\\Ccxendit\\": ""
+        }
+    }
+}

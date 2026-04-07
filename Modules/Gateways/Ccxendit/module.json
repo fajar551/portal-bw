@@ -1,0 +1,13 @@
+{
+    "name": "Ccxendit",
+    "alias": "ccxendit",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Gateways\\Ccxendit\\Providers\\CcxenditServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

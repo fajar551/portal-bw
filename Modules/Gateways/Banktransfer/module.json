@@ -1,0 +1,13 @@
+{
+    "name": "Banktransfer",
+    "alias": "banktransfer",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Gateways\\Banktransfer\\Providers\\BanktransferServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

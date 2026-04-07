@@ -1,0 +1,13 @@
+{
+    "name": "Permatabankva",
+    "alias": "permatabankva",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Gateways\\Permatabankva\\Providers\\PermatabankvaServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

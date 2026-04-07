@@ -1,0 +1,260 @@
+.intelligent-search-container {
+   position: absolute;
+   top: 0;
+   right: 0;
+   margin: 48px 20px;
+   text-align: right;
+ }
+ 
+ @media screen and (max-width: 1300px) {
+   .intelligent-search-container {
+       margin: 33px 8px;
+   }
+ }
+ 
+ @media screen and (max-width: 800px) {
+   .header .stats {
+       display: none;
+   }
+ }
+ 
+ #inputIntelliSearchValue {
+   margin: 0;
+   padding: 4px 10px 4px 25px;
+   border: 2px solid #fff;
+   width: 200px;G: 816px;
+   background-position: 6px 7px;
+   border-radius: 5px;
+ }
+ #inputIntelliSearchValue:focus {
+   outline: 0;
+   -webkit-box-shadow: none;
+   box-shadow: none;
+ }
+ #intelligentSearchResults {
+   /* display: none; */
+   position: fixed;
+   top: 70px;
+   right: 25px;
+   margin: 0 0 0 10px;
+   padding: 0;
+   font-size: 12px;
+   border: 1px solid #eaeaea;
+   background-color: #fff;
+   text-align: left;
+   z-index: 999999;
+   border-radius: 4px;
+ }
+ 
+ @media screen and (min-width: 530px) {
+   #intelligentSearchResults {
+       width: 500px;
+       max-height: 650px;
+       overflow-y: scroll;
+   }
+ }
+ 
+ #intelligentSearchResults .search-in-progress,
+ #intelligentSearchResults .search-no-results,
+ #intelligentSearchResults .session-expired,
+ #intelligentSearchResults .search-warning,
+ #intelligentSearchResults .error {
+   padding: 26px;
+   text-align: center;
+ }
+ #intelligentSearchResults a.search-more-results {
+   cursor: pointer;
+   display: block !important;
+   text-align: center;
+ }
+ #intelligentSearchResults .search-results {
+   margin: 0;
+   padding: 8px;
+   max-height: 400px;
+   overflow: auto;
+   text-align: left;
+ }
+ #intelligentSearchResults .search-header,
+ #intelligentSearchResults .search-footer {
+   line-height: 21px;
+ }
+ #intelligentSearchResults .search-header {
+   border-radius: 3px 3px 0 0;
+   font-size: 0.85em;
+ }
+ #intelligentSearchResults .search-footer {
+   border-radius: 0 0 3px 3px;
+   font-size: 0.9em;
+ }
+ #intelligentSearchResults .search-footer .realtime,
+ #intelligentSearchResults .search-footer .hide-inactive {
+   float: right;
+   line-height: 0;
+   margin-left: 5px;
+ }
+ 
+ @media screen and (max-width: 440px) {
+   #intelligentSearchResults .search-footer .realtime {
+       display: none;
+   }
+ }
+ 
+ #intelligentSearchResults .bootstrap-switch-id-intelliSearchHideInactiveSwitch .bootstrap-switch-label,
+ #intelligentSearchResults .bootstrap-switch-id-checkboxShowHidden .bootstrap-switch-label {
+   min-width: 130px;
+   white-space: nowrap;
+ }
+ #intelligentSearchResults h5 {
+   margin: 0 0 5px 0;
+   padding: 6px 15px;
+   font-size: 12px;
+   font-weight: bold;
+   text-align: left;
+   color: #888;
+   text-transform: uppercase;
+   border-bottom: 1px solid #ccc;
+   cursor: pointer;
+ }
+ #intelligentSearchResults h5 i {
+   float: right;
+   transition: transform 200ms ease;
+ }
+ #intelligentSearchResults ul {
+   margin: 2px;
+   padding: 0;
+   list-style: none;
+ }
+ #intelligentSearchResults ul li {
+   background-color: #fff;
+   padding: 2px 8px;
+   margin: 2px;
+   font-size: 12px;
+   border-radius: 3px;
+   color: #666;
+   overflow: hidden;
+ }
+ #intelligentSearchResults .list-group-item:hover {
+   background-color: #eee;
+ }
+ #intelligentSearchResults ul li a {
+   display: block;
+   text-decoration: none;
+   color: #2161a3;
+ }
+ #intelligentSearchResults .list-group-item .icon {
+   float: left;
+   margin: 0 6px 0 0;
+   padding: 4px;
+   width: 28px;
+   height: 32px;
+   font-size: 16px;
+   text-align: center;
+   border-radius: 3px;
+   color: #2161a3;
+ }
+ #intelligentSearchResults .list-group-item .label {
+   float: right;
+   right: 5px;
+   margin: 6px 0 0;
+   padding: 4px 5px;
+   font-size: 9px;
+   z-index: 500;
+ }
+ #intelligentSearchResults .list-group-itemi em {
+   display: block;
+   font-style: normal;
+   font-size: 11px;
+   color: #888;
+ }
+ 
+ .intellisearch {
+   position: absolute;
+   top: 0;
+   right: 0;
+   margin: 48px 20px;
+   text-align: right;
+ }
+ .intellisearch #intellisearchval {
+   margin: 0;
+   padding: 4px 10px 4px 25px;
+   border: 2px solid #fff;
+   width: 200px;
+   /* background-image: url('../../../images/icons/search.png'); */
+   background-repeat: no-repeat;
+   background-position: 6px 7px;
+   -moz-border-radius: 5px;
+   -webkit-border-radius: 5px;
+   -o-border-radius: 5px;
+   border-radius: 5px;
+ }
+ .intellisearch #intellisearchval:focus {
+   border: 2px solid #DEB101;
+ }
+ 
+ #intelligentSearchResults .accordion .item .item-header h2 i {
+   float: right;
+   font-size: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 5px;
+ }
+ 
+ #intelligentSearchResults .accordion .btn-link{
+   width: 100%;
+   text-align: left;
+ }
+ #intelligentSearchResults .btn-link.focus, #intelligentSearchResults .btn-link:focus{
+   text-decoration: none;
+ }
+ #intelligentSearchResults.btn.focus, #intelligentSearchResults .btn:focus{
+   box-shadow: none;
+   -webkit-box-shadow:none;
+ }
+ #intelligentSearchResults .t-p,  #intelligentSearchResults .item-header{
+   padding: 5px 20px;
+ }
+ #intelligentSearchResults .btn-link{
+   font-weight: 400;
+   color: #888;
+   text-decoration: none;
+ }
+ 
+ .label {
+   padding: 1px 3px 2px;
+   font-size: 10px;
+   font-weight: normal;
+   color: white;
+   text-transform: uppercase;
+   white-space: nowrap;
+   -webkit-border-radius: 3px;
+   -moz-border-radius: 3px;
+   border-radius: 3px;
+ }
+ .label.pending, .label.pending-transfer, .label.pending-registration, .label.collections, .label.redemption, .label.grace {
+   background-color: #F89406;
+ }
+ .label.active, .label.paid {
+   background-color: #46A546;
+ }
+ .label.suspended, .label.expired, .label.refunded, .label.transferred-away {
+   background-color: #0768B8;
+ }
+ .label.draft {
+   background-color: #D9EDF7;
+ }
+ .label.terminated, .label.closed, .label.unpaid {
+   background-color: #C43C35;
+ }
+ .label.cancelled, .label.inactive {
+   background-color: #BFBFBF;
+ }
+ .label.completed {
+   background-color: #008B8B;
+ }
+ .label.fraud {
+   background-color: #000;
+ }
+ .resuletdata .list-group-item-action strong {
+    display: flex;
+ }

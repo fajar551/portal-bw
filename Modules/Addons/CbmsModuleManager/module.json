@@ -1,0 +1,13 @@
+{
+    "name": "CbmsModuleManager",
+    "alias": "cbmsmodulemanager",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Addons\\CbmsModuleManager\\Providers\\CbmsModuleManagerServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

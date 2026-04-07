@@ -1,0 +1,13 @@
+{
+    "name": "Mandiritransfer",
+    "alias": "mandiritransfer",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Gateways\\Mandiritransfer\\Providers\\MandiritransferServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

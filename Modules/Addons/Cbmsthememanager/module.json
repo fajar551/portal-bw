@@ -1,0 +1,13 @@
+{
+    "name": "Cbmsthememanager",
+    "alias": "cbmsthememanager",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Addons\\Cbmsthememanager\\Providers\\CbmsthememanagerServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

@@ -1,0 +1,836 @@
+/*# sourceMappingURL=style.css.map */
+html {
+  scroll-behavior: smooth;
+}
+
+.admin-main-color {
+  background-color: #252b3b;
+}
+
+.text-qw-admin {
+  color: #ff933a;
+}
+
+.cbms-primary-color {
+  background: #141e30;
+  background: linear-gradient(to right, #243b55, #141e30);
+}
+
+.login-card {
+  padding: 1.5em 4em;
+  border-radius: 2em;
+}
+.login-card input:focus {
+  box-shadow: 0px 1px 20px -5px #1cbb8c;
+  -webkit-box-shadow: 0px 1px 20px -5px #1cbb8c;
+  -moz-box-shadow: 0px 1px 20px -5px #1cbb8c;
+}
+.login-card h1 {
+  font-weight: bold;
+  margin: 0;
+}
+.login-card .btn-admin-login {
+  width: 20em;
+}
+
+.infobox {
+  border-radius: 3px;
+  padding: 1em;
+  border: 1px solid #b8b537;
+  margin: 10px 0;
+  color: #3e3f12;
+  background-color: #fcfdae;
+}
+
+.sc-sidecard .shortcuts {
+  margin: 0 0 2em;
+}
+.sc-sidecard .shortcuts ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+}
+.sc-sidecard .shortcuts ul li {
+  padding: 2px 0;
+}
+.sc-sidecard .shortcuts a {
+  padding: 5px;
+}
+.sc-sidecard .shortcuts a:hover {
+  background-color: #252b3b;
+  color: #ffffff;
+  border-radius: 5px;
+  transition: 0.5 ease;
+}
+.sc-sidecard .system-information {
+  margin: 0 0 2em;
+}
+.sc-sidecard .system-information ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+}
+.sc-sidecard .system-information ul li {
+  padding: 2px 0;
+}
+.sc-sidecard .system-information a {
+  padding: 5px;
+}
+.sc-sidecard .system-information a:hover {
+  background-color: #252b3b;
+  color: #ffffff;
+  border-radius: 5px;
+  transition: 0.5 ease;
+}
+.sc-sidecard .adv-search {
+  margin: 0 0 2em;
+}
+.sc-sidecard .adv-search ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+}
+.sc-sidecard .adv-search ul li {
+  padding: 2px 0;
+}
+.sc-sidecard .adv-search a {
+  padding: 5px;
+}
+.sc-sidecard .adv-search a:hover {
+  background-color: #252b3b;
+  color: #ffffff;
+  border-radius: 5px;
+  transition: 0.5 ease;
+}
+
+.topnav #show-btn {
+  margin-top: 6px;
+}
+.topnav .mini-md-info {
+  margin-left: auto;
+}
+.topnav .mini-md-info .centering-items {
+  display: flex;
+  align-items: center;
+}
+.topnav .mini-md-info .drop-item-custom:hover {
+  background-color: #252b3b;
+  color: #ffffff !important;
+}
+.topnav .mini-info a:hover {
+  background-color: #252b3b;
+  padding: 1px;
+  border-radius: 5px;
+  transition: 0.5s ease-in-out;
+}
+.topnav #other-child {
+  top: -11em !important;
+}
+.topnav #addons-parent {
+  width: 12vw;
+}
+.topnav #setup-parent {
+  width: 230px;
+}
+
+.dashboard-wrapper {
+  padding: 1em;
+  border: 1px solid #e1e1e1;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  background: #ffffff;
+}
+.dashboard-wrapper .hover-card {
+  transition: ease-in-out 0.4s;
+  cursor: pointer;
+}
+.dashboard-wrapper .hover-card:hover {
+  box-shadow: 2px 5px 19px 5px rgba(182, 182, 182, 0.75);
+}
+.dashboard-wrapper .card-status i {
+  font-size: 2em;
+  margin-right: 1em;
+}
+.dashboard-wrapper .card-status small {
+  margin: 0 auto;
+}
+.dashboard-wrapper .card-status .info-data {
+  display: flex;
+  align-content: center;
+}
+.dashboard-wrapper .card-status .pending-order {
+  padding: 0.7em;
+  background-color: #2bb334;
+}
+.dashboard-wrapper .card-status .tickets-waiting {
+  padding: 0.7em;
+  background-color: #d61a6c;
+}
+.dashboard-wrapper .card-status .pending-cancellation {
+  padding: 0.7em;
+  background-color: #d28818;
+}
+.dashboard-wrapper .card-status .pending-module {
+  padding: 0.7em;
+  background-color: #68b1b5;
+}
+.dashboard-wrapper table h3 {
+  color: #a0a0a0;
+}
+.dashboard-wrapper .chart-overview .card {
+  min-height: 500px;
+}
+.dashboard-wrapper .section-3 .swiper-container {
+  width: 100%;
+  height: 6em;
+  overflow-x: auto;
+  border: 1px solid #f5f4f4;
+  padding: 1em;
+  border-radius: 5px;
+}
+.dashboard-wrapper .section-3 .card {
+  height: 330px;
+}
+.dashboard-wrapper .section-3 .supp-section i {
+  font-size: 2.5rem;
+}
+.dashboard-wrapper .section-3 .supp-section p {
+  margin: 0;
+  padding: 0;
+}
+.dashboard-wrapper .section-3 .option-tickets a {
+  text-decoration: underline !important;
+}
+.dashboard-wrapper .section-4 .profile-online i {
+  font-size: 50px;
+  padding: 0;
+  margin: 0;
+}
+.dashboard-wrapper .section-4 .client-activity {
+  height: 70px;
+}
+.dashboard-wrapper .section-4 .client-activity i {
+  font-size: 2.5rem;
+}
+.dashboard-wrapper .section-4 .client-activity p {
+  margin: 0;
+  padding: 0;
+}
+.dashboard-wrapper .section-4 .user-activity {
+  height: 70px;
+}
+.dashboard-wrapper .section-4 .user-activity i {
+  font-size: 2.5rem;
+}
+.dashboard-wrapper .section-4 .user-activity p {
+  margin: 0;
+  padding: 0;
+}
+.dashboard-wrapper .section-4 .table-scroll {
+  height: 440px;
+  max-height: 250px;
+  overflow-y: auto;
+}
+.dashboard-wrapper .section-4 .todo-wrap {
+  height: 400px;
+  max-height: 350px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.dashboard-wrapper .section-4 .todo-wrap .todo-item {
+  background-color: #eeeeee;
+  padding: 0.5rem;
+  height: 100px;
+  margin-bottom: 1rem;
+}
+.dashboard-wrapper .section-4 .todo-wrap .todo-item p {
+  font-size: 0.7rem;
+}
+.dashboard-wrapper .section-4 .todo-wrap .todo-item i {
+  font-size: 1rem;
+}
+.dashboard-wrapper .section-4 .activity-list {
+  height: 400px;
+  max-height: 300px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.dashboard-wrapper .section-4 .activity-list .activity-item {
+  padding: 0.7rem;
+}
+.dashboard-wrapper .section-4 .activity-list .activity-item small {
+  color: #b8b8b8;
+}
+.dashboard-wrapper .section-4 .status-health #icon-web i {
+  font-size: 55px;
+}
+
+.view-client-wrapper {
+  padding: 1em;
+  border: 1px solid #e1e1e1;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  background-color: #ffffff;
+}
+.view-client-wrapper .brand-container {
+  padding: 50px;
+  text-align: center;
+  min-height: 200px;
+}
+.view-client-wrapper .brand-container img {
+  width: 180px;
+}
+.view-client-wrapper .btn-primary-cust {
+  background-color: #252b3b;
+  color: #ffffff;
+}
+.view-client-wrapper thead th {
+  background-color: #252b3b;
+  color: #f5f4f4;
+}
+.view-client-wrapper .link-category:hover {
+  text-decoration: underline !important;
+}
+.view-client-wrapper .action-btn .edit-icon {
+  color: #d28818 !important;
+}
+.view-client-wrapper .action-btn .delete-icon {
+  color: #d61a6c !important;
+}
+.view-client-wrapper .product-card {
+  height: 18em;
+  max-height: 80em;
+  border: #e6e6e6 solid 1px;
+}
+.view-client-wrapper .custom-search-bar {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.view-client-wrapper .custom-search-bar i {
+  position: absolute;
+}
+.view-client-wrapper .custom-search-bar .icon {
+  color: #a8a8a8;
+  text-align: left;
+  padding: 10px;
+}
+.view-client-wrapper .custom-search-bar .field {
+  width: 100%;
+  padding: 10px 30px;
+}
+.view-client-wrapper .featured-section .new-apps .img-title {
+  display: flex;
+  align-items: center;
+  min-height: 100px;
+}
+.view-client-wrapper .featured-section .new-apps .card {
+  min-height: 18em;
+  max-height: 40em;
+}
+.view-client-wrapper .featured-section .web-hosting-apps .img-title {
+  display: flex;
+  align-items: center;
+  min-height: 100px;
+}
+.view-client-wrapper .featured-section .web-hosting-apps .card {
+  min-height: 18em;
+  max-height: 40em;
+}
+.view-client-wrapper .featured-section .digital-service-apps .img-title {
+  display: flex;
+  align-items: center;
+  min-height: 100px;
+}
+.view-client-wrapper .featured-section .digital-service-apps .card {
+  min-height: 18em;
+  max-height: 40em;
+}
+.view-client-wrapper .featured-section .provisioning-apps .img-title {
+  display: flex;
+  align-items: center;
+  min-height: 100px;
+}
+.view-client-wrapper .featured-section .provisioning-apps .card {
+  min-height: 18em;
+  max-height: 40em;
+}
+.view-client-wrapper .featured-section .social-auth-apps .img-title {
+  display: flex;
+  align-items: center;
+  min-height: 100px;
+}
+.view-client-wrapper .featured-section .social-auth-apps .card {
+  min-height: 18em;
+  max-height: 40em;
+}
+.view-client-wrapper .featured-section .marketing-apps .img-title {
+  display: flex;
+  align-items: center;
+  min-height: 100px;
+}
+.view-client-wrapper .featured-section .marketing-apps .card {
+  min-height: 18em;
+  max-height: 40em;
+}
+.view-client-wrapper .featured-section .notification-apps .img-title {
+  display: flex;
+  align-items: center;
+  min-height: 100px;
+}
+.view-client-wrapper .featured-section .notification-apps .card {
+  min-height: 18em;
+  max-height: 40em;
+}
+.view-client-wrapper .featured-section .order-frauds-apps .img-title {
+  display: flex;
+  align-items: center;
+  min-height: 100px;
+}
+.view-client-wrapper .featured-section .order-frauds-apps .card {
+  min-height: 18em;
+  max-height: 40em;
+}
+.view-client-wrapper .featured-section .updated-apps .img-title {
+  display: flex;
+  align-items: center;
+  min-height: 100px;
+}
+.view-client-wrapper .featured-section .updated-apps .card {
+  min-height: 18em;
+  max-height: 40em;
+}
+.view-client-wrapper .browse-section .new-apps .img-title {
+  display: flex;
+  align-items: center;
+  min-height: 100px;
+}
+.view-client-wrapper .browse-section .new-apps .card {
+  min-height: 18em;
+  max-height: 40em;
+}
+.view-client-wrapper .browse-section .web-hosting-apps .img-title {
+  display: flex;
+  align-items: center;
+  min-height: 100px;
+}
+.view-client-wrapper .browse-section .web-hosting-apps .card {
+  min-height: 18em;
+  max-height: 40em;
+}
+.view-client-wrapper .browse-section .digital-service-apps .img-title {
+  display: flex;
+  align-items: center;
+  min-height: 100px;
+}
+.view-client-wrapper .browse-section .digital-service-apps .card {
+  min-height: 18em;
+  max-height: 40em;
+}
+.view-client-wrapper .browse-section .provisioning-apps .img-title {
+  display: flex;
+  align-items: center;
+  min-height: 100px;
+}
+.view-client-wrapper .browse-section .provisioning-apps .card {
+  min-height: 18em;
+  max-height: 40em;
+}
+.view-client-wrapper .browse-section .social-auth-apps .img-title {
+  display: flex;
+  align-items: center;
+  min-height: 100px;
+}
+.view-client-wrapper .browse-section .social-auth-apps .card {
+  min-height: 18em;
+  max-height: 40em;
+}
+.view-client-wrapper .browse-section .marketing-apps .img-title {
+  display: flex;
+  align-items: center;
+  min-height: 100px;
+}
+.view-client-wrapper .browse-section .marketing-apps .card {
+  min-height: 18em;
+  max-height: 40em;
+}
+.view-client-wrapper .browse-section .notification-apps .img-title {
+  display: flex;
+  align-items: center;
+  min-height: 100px;
+}
+.view-client-wrapper .browse-section .notification-apps .card {
+  min-height: 18em;
+  max-height: 40em;
+}
+.view-client-wrapper .browse-section .order-frauds-apps .img-title {
+  display: flex;
+  align-items: center;
+  min-height: 100px;
+}
+.view-client-wrapper .browse-section .order-frauds-apps .card {
+  min-height: 18em;
+  max-height: 40em;
+}
+.view-client-wrapper .browse-section .updated-apps .img-title {
+  display: flex;
+  align-items: center;
+  min-height: 100px;
+}
+.view-client-wrapper .browse-section .updated-apps .card {
+  min-height: 18em;
+  max-height: 40em;
+}
+.view-client-wrapper .content-card .card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.view-client-wrapper .content-card .noti-app-image {
+  margin-bottom: 1em;
+}
+.view-client-wrapper .content-card .noti-app-image img {
+  max-width: 300px;
+  height: 80px;
+}
+.view-client-wrapper .nav-tabs a {
+  text-decoration: none;
+  color: #252b3b;
+}
+.view-client-wrapper .config-card i:hover {
+  color: #e4e4e4;
+  cursor: pointer;
+}
+.view-client-wrapper .config-card .icon-hdd i {
+  font-size: 34px;
+}
+.view-client-wrapper .payment-img-container img {
+  min-height: 55px;
+  max-height: 55px;
+}
+.view-client-wrapper .card-input-element {
+  display: none;
+}
+.view-client-wrapper .card-input-element:checked + .card-radio {
+  border-color: #ffffff;
+  background-color: #5664d2;
+  color: #ffffff;
+}
+.view-client-wrapper .card-radio {
+  border-color: 0.5em solid #252b3b;
+  width: 220px;
+  height: 120px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+}
+.view-client-wrapper .card-radio i {
+  font-size: 48px;
+}
+.view-client-wrapper .card-radio:hover {
+  border-color: #a0a0a0;
+  transition: 500ms ease;
+}
+.view-client-wrapper #dropdown-tld {
+  width: 240px !important;
+}
+.view-client-wrapper .table-support-ticket-departments td {
+  vertical-align: middle;
+}
+.view-client-wrapper .table-addons td {
+  vertical-align: middle;
+}
+.view-client-wrapper .app-links-img-container {
+  width: 200px;
+}
+.view-client-wrapper .app-links-img-container img {
+  max-width: 200px;
+}
+.view-client-wrapper .label-thumb {
+  border: 1px solid #e2e2e2;
+  border-radius: 5px;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+  max-width: 290px;
+}
+.view-client-wrapper .label-thumb img {
+  width: 100%;
+}
+.view-client-wrapper .label-thumb:hover {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.view-client-wrapper .label-thumb label {
+  width: 100%;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+}
+.view-client-wrapper .img-payment-wrapper img {
+  max-width: 100%;
+}
+.view-client-wrapper .payment-feature-check p {
+  font-size: 12px;
+}
+
+.client-summary-wrapper {
+  padding: 1em;
+  border: 1px solid #e1e1e1;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  background-color: #ffffff;
+}
+.client-summary-wrapper .btn-primary-cust {
+  background-color: #252b3b;
+  color: #ffffff;
+}
+.client-summary-wrapper .nav-item {
+  border-radius: 5px;
+}
+.client-summary-wrapper .nav-item:hover {
+  background-color: #e2e2e2;
+  transition: 0.5s ease;
+}
+.client-summary-wrapper .alert-info {
+  font-size: 0.8em;
+}
+.client-summary-wrapper .alert-info p {
+  margin: 0 !important;
+}
+.client-summary-wrapper .btn-link {
+  font-size: 0.8em;
+  padding: 0.5em 0;
+}
+.client-summary-wrapper #reset-pass-link {
+  font-size: 0.8em;
+  padding: 0.5em 0;
+}
+.client-summary-wrapper .other-action-sec a {
+  padding: 5px;
+  font-size: 0.8em;
+}
+.client-summary-wrapper .other-action-sec a:hover {
+  background-color: #252b3b;
+  border-radius: 5px;
+  color: #ffffff;
+}
+.client-summary-wrapper .dt-responsive th {
+  background-color: #252b3b;
+  color: #ffffff;
+}
+.client-summary-wrapper td {
+  font-size: 0.8em;
+}
+.client-summary-wrapper .table-head-primary-color {
+  background-color: #252b3b;
+}
+
+.hidden-menu-tab a {
+  padding: 0.5em;
+}
+.hidden-menu-tab a:hover {
+  background-color: #252b3b;
+  color: #ffffff;
+  border-radius: 0.4em;
+  transition: 0.3s ease-in-out;
+}
+.hidden-menu-tab a:active {
+  background-color: #d28818;
+}
+
+.thin-scrollbar::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.3);
+  background-color: #f5f5f5;
+}
+.thin-scrollbar::-webkit-scrollbar {
+  width: 0.5em;
+  background-color: #f5f5f5;
+}
+.thin-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #a3a3a3;
+}
+
+.feature-badge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e1e1e1;
+  cursor: pointer;
+}
+
+.invoice-body {
+  min-height: 500px;
+  border-left: 1px solid #dcdcdc;
+  border-bottom: 1px solid #dcdcdc;
+  border-right: 1px solid #dcdcdc;
+  padding: 2em;
+}
+.invoice-body .total-pay-desc {
+  text-align: center;
+}
+.invoice-body .total-pay-desc h5 {
+  color: #a8a8a8;
+}
+.invoice-body .total-pay-desc .price-pay {
+  font-size: 4em;
+  color: #f7863b;
+  font-weight: bolder;
+}
+
+.payment-gate-logo {
+  padding: 2em;
+}
+.payment-gate-logo .accordion {
+  border: 1px solid #a3a3a3;
+}
+.payment-gate-logo .accordion .card {
+  margin-bottom: 0;
+}
+.payment-gate-logo .accordion .card .card-header {
+  background-color: #f7863b00;
+  border-bottom: 1px solid #252b3b;
+}
+.payment-gate-logo .accordion .card .card-body {
+  background-color: #f7863b00;
+  border-bottom: 1px solid #252b3b;
+}
+.payment-gate-logo .accordion .btn-accord {
+  font-size: 18px;
+  color: #f7863b;
+}
+
+.disp-toggle {
+  display: none;
+}
+
+.logo-wallet-container {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5em;
+  width: 130px;
+  border: 1px solid #a0a0a0;
+  border-radius: 0.5em;
+  height: 75px;
+}
+.logo-wallet-container img {
+  width: 100%;
+}
+.logo-wallet-container:hover {
+  background-color: #f0f0f0;
+  transition: 0.3s ease-in-out;
+}
+
+.modal-body#ModalGuide {
+  min-height: 400px;
+  overflow: hidden;
+  width: 100%;
+}
+.modal-body#ModalGuide .swiper-container {
+  width: 100%;
+}
+.modal-body#ModalGuide .swiper-wrapper {
+  width: 100%;
+}
+.modal-body#ModalGuide .swiper-slide {
+  text-align: center;
+  width: auto;
+  height: 100%;
+}
+.modal-body#ModalGuide .swiper-slide .img-container-pay {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 1em;
+}
+.modal-body#ModalGuide .swiper-slide .img-container-pay img {
+  width: 100%;
+  margin-left: auto;
+}
+.modal-body#ModalGuide .swiper-pagination {
+  left: 50%;
+  margin-left: -20px;
+}
+
+#recurring-section .table .onetime-mode {
+  display: none;
+}
+
+.popover-header {
+  background-color: #141e30;
+  color: #eeeeee;
+}
+
+.visited {
+  background: #fffadb !important;
+  color: #141e30;
+}
+
+#ticketreplies .ticketattachmentthumbcontainer img {
+  width: 20% !important;
+  height: 20%;
+}
+
+@media screen and (max-width: 1366px) {
+  .topnav .mini-md-info .dropdown-toggle {
+    display: block !important;
+  }
+  .topnav #logs-child {
+    top: -11em !important;
+  }
+  .topnav #system-child {
+    top: -11em !important;
+  }
+  .topnav #addons-parent {
+    max-height: 70vh;
+    width: 15vw;
+    overflow-y: auto;
+    overflow-x: none;
+  }
+  .topnav #setup-parent {
+    max-height: 70vh;
+    overflow: hidden;
+  }
+
+  .dashboard-wrapper .section-3 .swiper-container {
+    height: 250px;
+  }
+
+  .view-client-wrapper .card-radio {
+    width: 150px;
+  }
+
+  .hidetab {
+    display: block !important;
+  }
+
+  .hide-item {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 600px) {
+  .topnav .mini-md-info .dropdown-toggle {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 1920px) {
+  .topnav .mini-md-info .dropdown-toggle {
+    display: none;
+  }
+
+  .hidetab {
+    display: none !important;
+  }
+
+  .hide-item {
+    display: block !important;
+  }
+}
+@media (max-width: 1366px) {
+  .topnav .mini-info {
+    display: none;
+  }
+}/*# sourceMappingURL=style.css.map */

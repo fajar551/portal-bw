@@ -1,0 +1,19 @@
+{
+    "name": "orderform/standard-cart2",
+    "description": "Standard Cart 2",
+    "type": "laravel-theme",
+    "version": "1.0.0",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Cbms Dev",
+            "email": "dev@cbms.id"
+        }
+    ],
+    "extra": {
+        "theme": {
+            "parent": "one",
+            "active": true
+        }
+    }
+}

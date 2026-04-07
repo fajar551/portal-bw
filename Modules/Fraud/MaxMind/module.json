@@ -1,0 +1,13 @@
+{
+    "name": "MaxMind",
+    "alias": "maxmind",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

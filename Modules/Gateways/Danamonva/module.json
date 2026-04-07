@@ -1,0 +1,13 @@
+{
+    "name": "Danamonva",
+    "alias": "danamonva",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Gateways\\Danamonva\\Providers\\DanamonvaServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
