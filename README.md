@@ -1,46 +1,54 @@
-# About this application
-Cloud Billing Management System Automatic
+# Portal Bikin Website
 
-# Requirements
-- PHP minimal 7.4.*
-- Laptop MAC
+Portal untuk **penjualan dan pengelolaan layanan website**—pelanggan dapat memesan, mengelola billing, dan mendukung siklus hidup layanan web dari satu sistem.
 
-# [FRESH] Installation
-- on progress
+Basis teknis mengacu pada stack **Cloud Billing Management System (CBMS)** / otomasi billing.
 
-# [PROD] Installation
-- Niat
-- Wudu
-- Clone projek
-- Run `composer install`
-- Run this on console:
-    - `php artisan migrate`
-    - `php artisan db:seed`
-    - `php artisan adminpermissions:generate`
-    - `php artisan apipermissions:generate`
-- Cek/Buat file `modules_statuses.json` di root
-- Buat file .env
-- Setting APP_URL, Database dan Email
-- Setting Admin Area:
-    - Ubah email template sesuaikan dengan syntak blade
-- Buat .htaccess file (optional)
+## Persyaratan
 
-# [LOCAL] Installation
-- on progress
+- PHP minimal **7.4.x** (sesuaikan dengan versi yang dipakai di environment Anda)
 
-## Virtualizor (Dynamic) Installation
-Price /hour
-- Setup Cron job
-- Runner script `artisan virtualizor:run`
-    - Contoh: `* * * * * php path/to/projek/artisan virtualizor:run`
+## Instalasi [FRESH]
 
-## Update ke Production pake Git 
-### Local - Update ke branch dev
-misal active branch: `andiw`
-- push perubahan kita dulu ke gitserver
+- Dalam pengembangan
+
+## Instalasi [PROD]
+
+- Siapkan environment produksi
+- Clone repositori
+- Jalankan `composer install`
+- Di terminal, jalankan:
+  - `php artisan migrate`
+  - `php artisan db:seed`
+  - `php artisan adminpermissions:generate`
+  - `php artisan apipermissions:generate`
+- Cek atau buat file `modules_statuses.json` di root
+- Salin `.env` dari `.env.example` dan sesuaikan
+- Atur **APP_URL**, database, dan email
+- Area admin:
+  - Sesuaikan template email dengan sintaks Blade
+- File `.htaccess` (opsional, sesuai server)
+
+## Instalasi [LOCAL]
+
+- Dalam pengembangan
+
+## Virtualizor (dynamic)
+
+Harga per jam
+
+- Pasang cron job
+- Jalankan: `php artisan virtualizor:run`
+  - Contoh: `* * * * * php /path/ke/projek/artisan virtualizor:run`
+
+## Update ke production dengan Git
+
+### Lokal — sinkron ke branch `dev`
+
+Contoh branch aktif: `andiw`
+
+- Push perubahan ke git server
 - `git pull origin dev`
-- resolve konflik jika ada
+- Selesaikan konflik jika ada
 - `git push origin andiw`
-- merge request `andiw` into `dev`
-
-### 
+- Buat merge request dari `andiw` ke `dev`
