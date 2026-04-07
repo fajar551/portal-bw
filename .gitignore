@@ -32,3 +32,67 @@ cron.log
 /*.sql
 modules_statuses.json
 .DS_Store
+
+# --- Pola dari .gitignore nested yang dihapus (satu file di root saja) ---
+
+# Modules/Addons: hanya paket addon yang divisioning
+/Modules/Addons/*
+!/Modules/Addons/CbmsModuleManager/
+!/Modules/Addons/CbmsModuleManager/**
+!/Modules/Addons/Cbmsthememanager/
+!/Modules/Addons/Cbmsthememanager/**
+!/Modules/Addons/Cbmshookcallbackmanager/
+!/Modules/Addons/Cbmshookcallbackmanager/**
+!/Modules/Addons/Cbmscronmanager/
+!/Modules/Addons/Cbmscronmanager/**
+
+# Themes: hanya cbms + orderform
+/themes/*
+!/themes/cbms/
+!/themes/cbms/**
+!/themes/orderform/
+!/themes/orderform/**
+
+# themes/cbms: hanya admin + one
+/themes/cbms/*
+!/themes/cbms/admin/
+!/themes/cbms/admin/**
+!/themes/cbms/one/
+!/themes/cbms/one/**
+
+# themes/orderform: hanya standard-cart2
+/themes/orderform/*
+!/themes/orderform/standard-cart2/
+!/themes/orderform/standard-cart2/**
+
+# Modules/Fraud: hanya MaxMind
+/Modules/Fraud/*
+!/Modules/Fraud/MaxMind/
+!/Modules/Fraud/MaxMind/**
+
+# Dusk / browser artefacts
+/tests/Browser/console/*
+/tests/Browser/screenshots/*
+/tests/Browser/source/*
+
+# Callback (lokal; tidak divcs)
+/app/Http/Controllers/Callback/*
+
+# Hooks: hanya Example.php yang divcs
+/app/Hooks/*
+!/app/Hooks/Example.php
+
+# Crons: direktori cadangan lokal
+/app/Console/Crons/*
+
+# Stub modul kosong
+/Modules/Registrar/*
+/Modules/Servers/*
+/Modules/Widgets/*
+/Modules/Security/*
+
+# SQLite database lokal
+/database/*.sqlite
+/database/*.sqlite-journal
+*.sqlite
+*.sqlite-journal
